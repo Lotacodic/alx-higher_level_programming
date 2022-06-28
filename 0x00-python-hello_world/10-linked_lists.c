@@ -10,7 +10,7 @@
 size_t print_listint(const listint_t *h)
 {
 	const listint_t *current;
-	unsigned int n;
+	unsigned int n;/* number of nodes */
 
 	current = h;
 	n = 0;
@@ -34,10 +34,9 @@ listint_t *add_nodeint(listint_t **head, const int n)
 	listint_t *new;
 
 	new = malloc(sizeof(listint_t));
+
 	if (new == NULL)
-	{
 		return (NULL);
-	}
 	new->n = n;
 	new->next = *head;
 	*head = new;

@@ -1,1 +1,1 @@
-Python - Hello, World
+Directory for the first Project on Python
