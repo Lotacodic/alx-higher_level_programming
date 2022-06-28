@@ -1,2 +1,2 @@
 ### Python
-This is repo contains my working directories
+This repo contains my working directories
