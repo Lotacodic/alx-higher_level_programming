@@ -1,2 +1,2 @@
 ### Python
-This repo contains my working directories
+ALX Sprint 2 Python Training
